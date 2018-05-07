@@ -23,4 +23,8 @@ Simply open the benchmark.html in your browser of choice, and observe the execut
 
 ### Firefox
 
+![Firefox v59](./screenshots/Benchmark-Firefox.png)
+
 ### Node
+
+![Node v8.9](./screenshots/Benchmark-Node.png)
