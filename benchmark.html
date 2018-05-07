@@ -122,6 +122,9 @@
         }
       }).add('Filter by array.filter', () => {
         const filteredArray = arr.filter(a => a < 5000);
+      }).add('Filter to Transform by array.filter and array.map', () => {
+        const filteredTransformedArray = arr.filter(a => a < 5000)
+          .map(a => ({ value: a }));
       })
 
       // *** Sort ***
