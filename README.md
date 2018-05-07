@@ -14,3 +14,13 @@ Simply open the benchmark.html in your browser of choice, and observe the execut
 ### In Node
 
 1. Call `npm start` in project root.
+
+## Sample Executions
+
+### Chrome
+
+![Chrome v66](./screenshots/Benchmark-Chrome.png)
+
+### Firefox
+
+### Node
