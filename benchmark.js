@@ -55,11 +55,11 @@ suite.add('While loop imitating a for loop', () => {
   for (let i = 0; i < len; ++i) {
     arr[i]
   }
-}).add('Weird for loop, why would you do this again?', () => {
+}).add('Pre-increment for loop', () => {
   for (let i = -1; ++i < arr.length;) {
     arr[i]
   }
-}).add('Weird for loop, why would you do this again? caching length', () => {
+}).add('Pre-increment for loop. caching length', () => {
   const len = arr.length
 
   for (let i = -1; ++i < len;) {
@@ -75,4 +75,5 @@ suite.add('While loop imitating a for loop', () => {
   }
 
   arr.forEach(foo)
-}).on('cycle', event => console.log(String(event.target))).run({ async: true })
+})
+.on('cycle', event => console.log(String(event.target))).run({ async: true })
