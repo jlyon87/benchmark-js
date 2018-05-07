@@ -17,14 +17,18 @@ Simply open the benchmark.html in your browser of choice, and observe the execut
 
 ## Sample Executions
 
-### Chrome
+### Chrome v66
 
 ![Chrome v66](./screenshots/Benchmark-Chrome.png)
 
-### Firefox
+### Firefox v59
 
 ![Firefox v59](./screenshots/Benchmark-Firefox.png)
 
-### Node
+### Edge v41
+
+![Edge v41](./screenshots/Benchmark-Edge.png)
+
+### Node v8.9
 
 ![Node v8.9](./screenshots/Benchmark-Node.png)
