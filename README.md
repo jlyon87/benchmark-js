@@ -1,6 +1,6 @@
 # Benchmark-js
 
-This is a sample benchmarking test suite using the `Benchmark` npm module.
+This is a sample benchmarking test suite using the [`Benchmark`](https://www.npmjs.com/package/benchmark) npm module.
 
 ## Setup
 
